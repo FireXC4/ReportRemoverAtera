@@ -1,0 +1,30 @@
+{
+    "items": [
+        {
+        "AlertID": 1,
+        "Severity": "Information"
+      },
+      {
+        "AlertID": 2,
+        "Severity": "Information"
+      },
+      {
+        "AlertID": 3,
+        "Severity": "Critical"
+      },
+      {
+        "AlertID": 4,
+        "Severity": "Critical"
+      },
+      {
+        "AlertID": 5,
+        "Severity": "Critical"
+      }
+    ],
+    "totalItemCount": 49,
+    "page": 1,
+    "itemsInPage": 20,
+    "totalPages": 3,
+    "prevLink": "",
+    "nextLink": "http://app.atera.com/api/v3/alerts?page=2&itemsInPage=20&alertStatus=Open"
+  }
