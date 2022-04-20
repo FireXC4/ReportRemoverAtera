@@ -10,7 +10,7 @@ path_csv = open('ouput.csv', 'w+', encoding='utf8', newline='')
 writer_csv = csv.writer(path_csv)
 
 URL = "https://app.atera.com/api/v3/alerts?page=1&itemsInPage=50&alertStatus=Open"
-key = 'fbbe9e0fe4ec457caf89d90dbcaf0ffd'
+key = ''
 #------------------------
 def toDate (datein):
     date = datein.split('-')
